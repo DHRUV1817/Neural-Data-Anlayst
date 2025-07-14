@@ -1,0 +1,134 @@
+# Neural Data Analyst - .gitignore
+
+# Environment Variables (IMPORTANT: Never commit API keys!)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Streamlit
+.streamlit/
+streamlit_cache/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+neural_analyst_db/
+analysis_history.json
+
+# Logs
+*.log
+logs/
+neural_logs/
+
+# Cache
+.cache/
+cache/
+temp/
+tmp/
+
+# Data files (add your data files here)
+data/
+datasets/
+uploads/
+*.csv
+*.json
+*.xlsx
+*.xls
+sample_data.csv
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Documentation builds
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+
+# API Keys and Secrets (double protection)
+secrets.toml
+.secrets.toml
+api_keys.txt
+config.json
+
+# Local configuration
+local_config.py
+config_local.py
