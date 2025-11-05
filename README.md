@@ -1,5 +1,3 @@
-[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-xl-dark.svg)](https://huggingface.co/spaces/Dhruv-18/Advanced-AI-Reasoning-pro)
-
 ---
 title: Neural Data Analyst
 emoji: 📊
@@ -10,6 +8,7 @@ sdk_version: "1.33.0"
 app_file: main.py
 pinned: false
 ---
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-xl-dark.svg)](https://huggingface.co/spaces/Dhruv-18/Advanced-AI-Reasoning-pro)
 
 # ⚡ Neural Data Analyst
 
